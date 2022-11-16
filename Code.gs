@@ -34,7 +34,7 @@ function initializeconfigfile (){
   var configListValues = configRange.getValues();
   configSheet.getRange(1,1,7,1).setValues([
     ["*Config File for ColorToCalendarEvents script. Recolor events on a timeframe depending on title."],
-    ["*PLEASE FIRST TIME: Go to SCRIPT STARTER menu and run Click to Authorize."],
+    ["*PLEASE FIRST TIME (wait 20 seconds for menu to appear): Go to SCRIPT STARTER menu and run Click to Authorize."],
     ["*On Script Starter you can run the script manually or set it to run every 5 minutes (Even if browser or sheet is closed)."],
     ["*Enter title strings to match on column C: Starting on c7 and up to c17."],
     ["*You can enter several strings for one color comma separated. No spaces before/after comma"],
