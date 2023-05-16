@@ -25,8 +25,13 @@ To use the solution once you did one of above
 11. If you want to cancel automatic run SCRIPT_STARTER > Cancel Automatic Run
 
 Best to test first to understand how it works:
+
 a. Enter "Gobbledegook" on the spreadsheet under Title for example (C14)
+
 b. Enter gmail.com on the spreadsheet under Domains for example (D16)
+
 c. Create a calendar event with title "The word of the year is Gobbledegook for 2022" for today
+
 d. Create a calenader event and invite somebody with email @gmail.com for today
+
 e. Run script manually
