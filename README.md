@@ -1,6 +1,6 @@
 # ColorGoogleCalendarEvents
 Spreadsheet with Google Script App that enables to automatically color events
-This enables user to automtically color events on google calendar that meet certain criter (title include certain word)
+This enables user to automtically color events on google calendar that meet certain criter (title include certain word or received/sent with specific email domains)
 The Spreadsheet itself includes an explanation, the settings the user need to configure and also menu options to initiailize and run the script
 To get this solution on your account you can do two things:
 1. Use this url [https://docs.google.com/spreadsheets/d/1308HNWdLj8Xdm73l2e6ytR7T_itsUrlTuVOKHRbyJ9I/copy](https://docs.google.com/spreadsheets/d/18CHrFnT3KsZ83dY6ui5FYkTvv4SC7F4XsUNKG9ju3oo/copy) and make a copy for you
@@ -19,12 +19,14 @@ To use the solution once you did one of above
 6. You will get prompted to authorize. Do so
 ![image](https://user-images.githubusercontent.com/24392647/202052868-0278292c-34c2-48c2-ad21-59cd8d23f5b9.png)
 7. Review the instructions. The script changes calendar events in a period of time (days before / after it runs). Enter how many days on the appropriate field
-8. Enter the string you want to match in the title. You can enter several strings comma separated, no spaces before or after comma.
+8. Enter the string you want to match in the title. You can enter several strings comma separated
 9. Now to run the script manually: SCRIPT_STARTER > Run Manually
 10. Now to run the script automatically every 5 minutes: SCRIPT_STARTER > Run Automatically every 5 minutes. It will run even if spreadsheet is closed, computer turned off, etc
 11. If you want to cancel automatic run SCRIPT_STARTER > Cancel Automatic Run
 
 Best to test first to understand how it works:
-a. Enter "Gobbledegook" on the spreadsheet under PALE_RED for example (C14)
-b. Create a calendar event with title "The word of the year is Gobbledegook for 2022" for today
-c. Run script manually
+a. Enter "Gobbledegook" on the spreadsheet under Title for example (C14)
+b. Enter gmail.com on the spreadsheet under Domains for example (D16)
+c. Create a calendar event with title "The word of the year is Gobbledegook for 2022" for today
+d. Create a calenader event and invite somebody with email @gmail.com for today
+e. Run script manually
