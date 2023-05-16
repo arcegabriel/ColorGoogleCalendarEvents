@@ -3,7 +3,7 @@ Spreadsheet with Google Script App that enables to automatically color events
 This enables user to automtically color events on google calendar that meet certain criter (title include certain word)
 The Spreadsheet itself includes an explanation, the settings the user need to configure and also menu options to initiailize and run the script
 To get this solution on your account you can do two things:
-1. Use this url https://docs.google.com/spreadsheets/d/1308HNWdLj8Xdm73l2e6ytR7T_itsUrlTuVOKHRbyJ9I/copy and make a copy for you
+1. Use this url [https://docs.google.com/spreadsheets/d/1308HNWdLj8Xdm73l2e6ytR7T_itsUrlTuVOKHRbyJ9I/copy](https://docs.google.com/spreadsheets/d/18CHrFnT3KsZ83dY6ui5FYkTvv4SC7F4XsUNKG9ju3oo/copy) and make a copy for you
 ![image](https://user-images.githubusercontent.com/24392647/202052041-dfe13bde-0758-4f9c-bff6-98646dd098b0.png)
 2. Create a new google sheet, and enter the code under Extensions > Apps Script (You need to be familiar with App Script)
 
